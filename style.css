@@ -13,11 +13,12 @@
         background-image: url(./assets/images/fundoSite.svg);
     }
     .sectionOne img{
-        margin: 2rem 0rem 1rem 6rem;
+        margin: 1rem 5rem auto;
+        width: 10rem;
     }
     .sectionOne h1{
         color: white;
-        font-size:1.6rem;
+        font-size:2.4rem;
         text-align: center;
         font-weight: 400;
     }
@@ -47,6 +48,59 @@
         padding: 1rem;
     }
 }
+.sectionThree{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+    .sectionThree iframe{
+        margin: 1.0rem 0 1.0rem 0;
+        padding: 0.6rem ;
+    }
+    .sectionThree h1{
+        color: #247BA0;
+        margin: 0 0 1rem 0;
+        padding: 0px;
+        font-size:2.0rem;
+        text-align: center;
+    }
+    .sectionThree p{
+        color: #383838;
+        margin: 0 1rem 1rem 1rem;
+        padding: 0px;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+.sectionFour{
+    margin: 0px;
+    padding: 0px;
+    background-color: #247BA0;
+}
+    .sectionFour h1{
+        margin: 2.5rem 0 2rem 0;
+        text-align: center;
+        color: #EAECE5;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    .sectionFour img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 19.9rem;
+        margin: 1rem auto;
+        border-radius: 900px;
+    }
+    #setas{
+        margin: 1rem auto;
+        padding: 0;
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 @media screen and (min-width: 321px) and (max-width: 480px){
     body{
         background-color: rgb(153, 79, 79);
