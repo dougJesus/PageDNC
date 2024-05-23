@@ -10,6 +10,8 @@
         font-family:'inter';
     }
     .sectionOne{
+        margin: 0px;
+        padding: 0px;
         background-image: url(./assets/images/fundoSite.svg);
     }
     .sectionOne img{
@@ -107,6 +109,50 @@
     #Leornado{
         display: none;
     }
+.sectionFive{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .sectionFive h1{
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 2.5rem 0 2rem 0;
+        color: #383838;
+    }
+    .sectionFive input{
+        background-color: #EAECE5;
+        border-radius: 8px;
+        border: none;
+        width: 13rem;
+        height: 2rem;
+    }
+    .sectionFive input::placeholder{
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+    .sectionFive button{
+        background-color: #247BA0;
+        border: none;
+        border-radius:8px;
+        width: 13rem;
+        height: 2rem;
+        color: white;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    .sectionFive  footer a{
+        color: black;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .sectionFive p{
+        font-size: 1rem;
+    }
+
 @media screen and (min-width: 321px) and (max-width: 480px){
     body{
         background-color: rgb(153, 79, 79);
