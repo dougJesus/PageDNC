@@ -143,16 +143,6 @@
         font-size: 0.7rem;
         font-weight: bold;
     }
-    .sectionFive  footer a{
-        color: black;
-        cursor: pointer;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    .sectionFive p{
-        font-size: 1rem;
-    }
-
 @media screen and (min-width: 321px) and (max-width: 480px){
     body{
         background-color: rgb(153, 79, 79);
