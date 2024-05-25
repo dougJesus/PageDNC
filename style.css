@@ -9,14 +9,15 @@
         justify-content: center;
         font-family:'inter';
     }
-    .sectionOne{
+.sectionOne{
         margin: 0px;
         padding: 0px;
         background-image: url(./assets/images/fundoSite.svg);
     }
-    .sectionOne img{
-        margin: 1rem 5rem auto;
-        width: 10rem;
+    #logo{
+        margin: 1rem auto;
+        display: block;
+        text-align: center;
     }
     .sectionOne h1{
         color: white;
@@ -60,6 +61,11 @@
     .sectionThree iframe{
         margin: 1.0rem 0 1.0rem 0;
         padding: 0.6rem ;
+    }
+    #vide{
+        display: block;
+        text-align: center;
+        margin: 1rem auto;
     }
     .sectionThree h1{
         color: #247BA0;
@@ -170,9 +176,10 @@
         padding: 0px;
         background-image: url(./assets/images/fundoSite.svg);
     }
-    .sectionOne img{
-        margin: 1rem 5rem auto;
-        width: 10rem;
+    #logo{
+        margin: 1rem auto;
+        display: block;
+        text-align: center;
     }
     .sectionOne h1{
         color: white;
