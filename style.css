@@ -479,111 +479,166 @@
     }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
-    .sectionThree{
+    body{
         margin: 0px;
         padding: 0px;
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-    }
-        .sectionThree iframe{
-            margin: 1.0rem 0 1.0rem 0;
-            padding: 0.6rem ;
-            width: 28rem;
-            height: 21rem;
-        }
-        .sectionThree h1{
-            color: #247BA0;
-            margin: 0 0 1rem 0;
-            padding: 0px;
-            font-size:2.0rem;
-            text-align: center;
-        }
-        .sectionThree p{
-            color: #383838;
-            margin: 0 1rem 1rem 1rem;
-            padding: 0px;
-            font-size: 1.3rem;
-            text-align: center;
-        }
-    .sectionFour{
-        margin: 0px;
-        padding: 0px;
-        background-color: #247BA0;
-        width: 100%;
-    }
-        .sectionFour h1{
-            margin: 2.5rem 0 2rem 0;
-            text-align: center;
-            color: #EAECE5;
-            font-size: 2rem;
-            font-weight: bold;
-        }
-    
-        .sectionFour img{
-            display: flex;
-            width: 29rem;
-            margin: 1.3rem auto;
-            border-radius: 700px;
-        }
-        #setas{
-            width: 3rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-        }
-        #Samanta{
-            display: none;
-        }
-        #Leornado{
-            display: none;
-        }
-    .sectionFive{
-        background-color: white;
+        background-color: #EAECE5;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-bottom: 2rem;
+        font-family:'inter';
     }
-    .sectionFive p{
-        font-size: 1.2rem;
-        padding-top: 2rem;
+    .sectionOne{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(./assets/images/fundoSite.svg);
     }
-    .sectionFive a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2rem;
+    #logo{
+        margin: 1rem auto;
+        display: block;
+        text-align: center;
+    }
+    #logo img{
+        width: 14rem;
+    }
+    .sectionOne h1{
+        color: white;
+        font-size:3rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    .sectionOne p{
+        color: white;
+        font-size:1.8rem;
+        text-align: center;
+        font-weight: 200;
+    }
+    .sectionTwo{
+    margin: 0px;
+    padding: 0px;
+    }
+    .sectionTwo ul{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+    .sectionTwo ul li{
+        display: flex;
+        color: #122235;
+        font-size:1.8rem;
+        font-weight: 200;
+    }
+    .sectionTwo img{
+        width: 2.5rem;
+        padding: 1rem;
+    }
+ 
+}
+.sectionThree{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+    .sectionThree iframe{
+        margin: 1.0rem 0 1.0rem 0;
+        padding: 0.6rem ;
+        width: 28rem;
+    }
+    .sectionThree h1{
+        color: #247BA0;
+        margin: 0 0 1rem 0;
+        padding: 0px;
+        font-size:2.2rem;
+        text-align: center;
+    }
+    .sectionThree p{
+        color: #383838;
+        margin: 0 1rem 1rem 1rem;
+        padding: 0px;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+.sectionFour{
+    margin: 0px;
+    padding: 0px;
+    background-color: #247BA0;
+    width: 100%;
+}
+    .sectionFour h1{
+        margin: 2.5rem 0 2rem 0;
+        text-align: center;
+        color: #EAECE5;
+        font-size: 2rem;
         font-weight: bold;
     }
-        .sectionFive h1{
-            font-size: 2rem;
-            text-align: center;
-            margin: 2.5rem 0 2rem 0;
-            color: #383838;
-        }
-        .sectionFive input{
-            background-color: #EAECE5;
-            border-radius: 8px;
-            border: none;
-            width: 25rem;
-            height: 3rem;
-        }
-        .sectionFive input::placeholder{
-            font-size: 1.1rem;
-            padding-left: 1rem;
-        }
-        .sectionFive button{
-            background-color: #247BA0;
-            border: none;
-            border-radius:8px;
-            width: 25rem;
-            height: 4rem;
-            color: white;
-            font-size: 1.4rem;
-            font-weight: bold;
-        }
+    .sectionFour img{
+        display: flex;
+        width: 27.2rem;
+        margin: 1.3rem auto;
+        border-radius: 700px;
+    }
+    #setas{
+        margin: 1rem auto;
+        padding: 0;
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    #Samanta{
+        display: none;
+    }
+    #Leornado{
+        display: none;
+    }
+.sectionFive{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.sectionFive p{
+    font-size: 1.3rem;
+    padding-top: 2rem;
+}
+.sectionFive a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+    .sectionFive h1{
+        font-size: 2rem;
+        text-align: center;
+        margin: 2.5rem 0 2rem 0;
+        color: #383838;
+    }
+    .sectionFive input{
+        background-color: #EAECE5;
+        border-radius: 8px;
+        border: none;
+        width: 20rem;
+        height: 4rem;
+    }
+    .sectionFive input::placeholder{
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+    .sectionFive button{
+        background-color: #247BA0;
+        border: none;
+        border-radius:8px;
+        width: 20rem;
+        height: 4rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
     }
 @media screen and (min-width: 769px) and (max-width: 1024px){
    
