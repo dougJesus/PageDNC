@@ -297,11 +297,11 @@
         margin: 0px;
         padding: 0px;
         background-color: #EAECE5;
+        justify-content: center;
+        font-family:'inter';
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        font-family:'inter';
     }
     .sectionOne{
         margin: 0px;
@@ -595,7 +595,86 @@
 
 @media screen and (min-width: 1025px){
     body{
-        background-color: rgb(107, 27, 27);
+        margin: 0px;
+        padding: 0px;
+        background-color: #EAECE5;
+        justify-content: center;
+        font-family:'inter';
     }
+    #logo img{
+        margin: 4rem 0 1rem 3rem;
+        width: 125px;
+        height: 62px;
+    }
+    .sectionOne{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(./assets/images/fundoSite.svg);
+        height: 33rem;
+        
+    }
+    .sectionOne h1{
+        font-size: 40px;
+        color: white;
+        font-weight: 300;
+        margin: 3rem 0 1rem 10rem;
+    }
+    .sectionOne p{
+        font-size: 20px;
+        color: white;
+        font-weight: 200;
+        margin: 1.3rem 0 1rem 10rem;
+    }
+.sectionTwo{
+    margin: 0;
+    padding: 0;
 }
+.sectionTwo ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.sectionTwo ul li{
+    display: flex;
+}
+.sectionTwo img{
+    margin: 2rem 0 2rem 0;
+    width: 40px;
+    height: 40px;
+    padding: 1rem;
+}
+.sectionTwo p{
+    font-size: 20px;
+    margin: 3.4rem 0 3rem 0;
+}
+.sectionThree{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+}
+
+.sectionThree h1{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 2.5rem;
+    text-align: left;
+    margin: 0rem 3rem 0 0;
+}
+.sectionThree p{
+    margin: 1rem 3rem 0 0;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
+}
+.sectionThree iframe{
+    width: 534px;
+    height: 300px;
+    margin: 2rem 0 2rem 5rem;
+}
+
+
 
