@@ -8,7 +8,8 @@ function ParaBaixo(){
     Leornado.style = "display:flex"
 }
 function ParaCima(){
-    Bruna.style = "display:none"
-    Samanta.style = "display:flex"
+    Bruna.style = "display:flex"
+    Samanta.style = "display:none"
     Leornado.style = "display:none"
 }
+

@@ -597,7 +597,6 @@
     body{
         margin: 0px;
         padding: 0px;
-        background-color: #EAECE5;
         justify-content: center;
         font-family:'inter';
     }
@@ -628,6 +627,7 @@
 .sectionTwo{
     margin: 0;
     padding: 0;
+    background-color: #EAECE5;
 }
 .sectionTwo ul{
     display: flex;
@@ -675,6 +675,69 @@
     height: 300px;
     margin: 2rem 0 2rem 5rem;
 }
+.sectionFour h1{
+    font-size: 32px;
+    padding-top: 4rem;
+    font-weight: bold;
+}
+    .sectionFour img{
+        display: flex;
+        width: 30rem;
+        border-radius: 16px;
+    }
+    #setas{
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    #seta{
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        padding-bottom: 3rem;
+    }
+    #Samanta{
+        display: flex;
+    }
+    #Bruna{
+        display:none;
+    }
+    #Leornado{
+        display: none;
+    }
+    
+    .sectionFive h1{
+        font-size: 32px;
+        padding-bottom: 3rem;
+    }
+    .sectionFive input{
+        width: 410px;
+        height: 55px;
+        border-radius: 5px;
 
-
-
+    }
+    .sectionFive ::placeholder{
+        font-size: 16px;
+        text-align: start;
+    }
+    .sectionFive button{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 330px;
+        height: 53px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .sectionFive p{
+        font-size: 1rem;
+    }
+    .sectionFive a{
+        font-size: 1rem;
+    }
+    
